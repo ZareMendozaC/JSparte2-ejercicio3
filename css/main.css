@@ -25,11 +25,11 @@ body{
 	margin-top: 20px;
 	background-color:rgba(128,196,33, 0.3);
 }
+
 .respuesta h3
 {
 	color: #059549;
 	background-color: rgba(252,253,149,0.3);
-	width: 400px;
 }
 
 .respuesta .btn{
