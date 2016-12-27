@@ -1,0 +1,37 @@
+/* Inserta tu código aquí */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url(../image/fondo5.jpg) no-repeat center;
+	background-size: cover;
+	height: 600px;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Comfortaa', cursive;
+}	
+.container h1{
+	font-size: 50px;
+	color: #059347;
+}
+
+.imagen
+{
+	max-width: 100%;
+	width: 35%;
+	margin:0px auto;
+}
+
+.container{
+	margin-top: 20px;
+	background-color:rgba(128,196,33, 0.3);
+}
+.respuesta h3
+{
+	color: #059549;
+	background-color: rgba(252,253,149,0.3);
+	width: 400px;
+}
+
+.respuesta .btn{
+	background-color: #80c421;
+}

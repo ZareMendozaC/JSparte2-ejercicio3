@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>¿Qué día es hoy?</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+	<link rel="stylesheet icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/queries.css">
+
+	
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-8 col-md-offset-2 text-center">
+			<h1 class="animated wobble">Monkey Trouble</h1>
+			<hr>
+			<div class="row">
+				<div class="col-md-6 col-xs-6">
+
+					<h3>Mono A</h3>
+					<label for="mono_a">
+						<input type="checkbox" onchange="monoA()" id="mono_a"> Está feliz
+					</label>
+					<div id="img_mono_a"></div>
+				</div>
+				<div class="col-md-6 col-xs-6">
+					<h3>Mono B</h3>
+					<label for="mono_b">
+						<input type="checkbox" onchange="monoB()" id="mono_b"> Está feliz
+					</label>
+					<div id="img_mono_b"></div>
+				</div>
+			</div>
+			<div class="respuesta">
+				<h4>Averigua si estamos en problemas</h4>
+				<center><h3 id="salida"></h3><center>
+			</div>
+			<p><button onclick="evaluar()" class="btn-success btn-md btn">Evaluar</button></p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
