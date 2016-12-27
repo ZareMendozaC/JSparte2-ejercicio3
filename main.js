@@ -46,3 +46,6 @@ function evaluar()
         salida.innerHTML = "<h3 class='animated wobble'> No hay problemas, no temas! </h3>";
     }
 }
+//llamando funciones para que aparesca por defecto los monos tristes
+monoA();
+monoB();
