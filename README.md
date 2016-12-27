@@ -10,4 +10,5 @@
 - Obtener aSmile
 - Si bSmile es igual a aSmile entonces Estamos en problemas, mostrar 1
 - Si no No estamos en problemas, mostrar 0
+
 *Fin* 
