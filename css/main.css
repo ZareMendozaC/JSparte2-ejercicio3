@@ -35,3 +35,19 @@ body{
 .respuesta .btn{
 	background-color: #80c421;
 }
+
+.navegacion { 
+	margin-top: 30px;
+}
+.navegacion a{
+	text-decoration: none;
+}
+.navegacion .micode{
+	color: white;
+	color: #059347;
+	font-size: 20px;
+}
+.navegacion .micode:hover{
+	color: yellow;
+	font-size: 20px;
+}
